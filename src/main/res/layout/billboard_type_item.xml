@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/hypercube"
+        android:id="@+id/typeImageView" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:layout_alignBottom="@+id/typeImageView"
+        android:layout_alignLeft="@+id/typeImageView"
+        android:layout_alignRight="@+id/typeImageView"
+        android:id="@+id/space"
+        android:background="@color/billboardTypeTextBackground"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/typeImageView"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:padding="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/typeImageView"
+        android:layout_alignBottom="@+id/typeImageView"
+        android:layout_alignLeft="@+id/typeImageView"
+        android:layout_alignTop="@+id/typeImageView"
+        android:id="@+id/selectedLayout"/>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GeoApplication</string>
+
+    <string name="menu_camera">Camera</string>
+    <string name="menu_map">Map</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_transparent">TransparentActivity</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="intro_message">Intro Message</string>
+
+    <string name="billboard">BILLBOARD</string>
+    <string name="megaboard">MEGABOARD</string>
+    <string name="citylight">CITYLIGHT</string>
+    <string name="trojnozka">TROJNOZKA</string>
+    <string name="hypercube">HYPERCUBE</string>
+
+    <!-- Buttons -->
+    <string name="neutral_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="submit_button">Submit</string>
+    <string name="use_button">Use</string>
+    <string name="retake_button">Retake</string>
+    <string name="buttonUse">use</string>
+    <string name="buttonRetake">retake</string>
+
+</resources>

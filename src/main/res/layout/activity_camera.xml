@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.zuzanka.geoapplication.camera.testActivities.CameraActivity">
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/degreeTextView"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="75dip"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_gravity="right|center_vertical">
+
+            <FrameLayout
+                android:id="@+id/frameLayoutCapture"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/buttonCapture"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageViewCamera"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_menu_camera" />
+
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/buttonRetake"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Retake"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/buttonUse"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Use"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+       <!-- <com.example.zuzanka.geoapplication.helpers.MySurfaceView
+            android:id="@+id/surface_camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </com.example.zuzanka.geoapplication.helpers.MySurfaceView>-->
+    </FrameLayout>
+
+</RelativeLayout>
